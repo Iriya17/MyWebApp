@@ -1,0 +1,437 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.login-container {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Form */
+.login-form {
+    flex: 1;
+    padding: 30px;
+    background: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    color: #800080;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #800080;
+    text-decoration: none;
+}
+
+/* Fashion Collage */
+.fashion-collage {
+    flex: 1;
+    background: #555;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.fashion-image {
+    width: 48%;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.fashion-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tape {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    transform: rotate(45deg);
+}
+
+.top-left { top: -5px; left: -5px; }
+.top-right { top: -5px; right: -5px; }
+
+.fashion-title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* Signup Form Styling */
+#registerForm {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#registerForm h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#registerForm .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #800080;
+    outline: none;
+}
+
+/* Signup Page Layout */
+.signup-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+.signup-form {
+    width: 50%;
+    padding: 30px;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Gender Options Alignment */
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* OTP Input and Button */
+.otp-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.otp-button {
+    background: #800080;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Image Section */
+.signup-image {
+    width: 50%;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Signup Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/* Gender Selection Alignment */
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.gender-options input {
+    margin-right: 5px;
+}
+
+/* OTP Input and Button Alignment */
+.otp-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.otp-container input {
+    flex: 1;
+}
+
+.otp-button {
+    background: #800080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.otp-button:hover {
+    background: #600060;
+}
+
+/* Signup Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background: #222;
+}
+
+/* Register Link */
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #800080;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* Signup Page Layout */
+body {
+    background: #ccc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    display: flex;
+    width: 850px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+.signup-form {
+    width: 50%;
+    padding: 30px;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Gender Options Alignment */
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* OTP Input and Button */
+.otp-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.otp-button {
+    background: purple;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Image Section */
+.signup-image {
+    width: 50%;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Signup Button */
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
